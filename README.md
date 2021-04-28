@@ -5,10 +5,16 @@ This script create a team standings on AtCoder Problems.(alpha ver. lang. is onl
 - Auto Refresh (beta ver.で復活予定)
 - Pin me
 
-## 使い方
+## 導入方法
+
+## 使い方 
 1. {[user_id]:[team名],[user_id]:[team名].....}というユーザとチーム名の対応が書かれたファイル(形式はjsonやtxtなど)を作成する。
 2. 画面上部にあるファイルを選択から上記のファイルを読み込む
 3. リロードすると、チームスコアが表示されます。
+
+## 注意点
+1. このスクリプトは、WEBの表面的な情報しか収集していない(APIを使用しているわけではない)ので、ペナ数の表示は各チームのユーザの合計となります。
+2. script内にあるget_standingsはAtCoder Problems のAPIを使用し、より正確な順位表を出力しますが、負荷軽減の観点から、代表者のみが行うようにしてください。
 
 ## 確認されているバグ一覧
 - ロードしないと表示されない
