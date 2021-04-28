@@ -5,6 +5,11 @@ This script create a team standings on AtCoder Problems.(alpha ver. lang. is onl
 - Auto Refresh (beta ver.で復活予定)
 - Pin me
 
+## 使い方
+1. {[user_id]:[team名],[user_id]:[team名].....}というユーザとチーム名の対応が書かれたファイル(形式はjsonやtxtなど)を作成する。
+2. 画面上部にあるファイルを選択から上記のファイルを読み込む
+3. リロードすると、チームスコアが表示されます。
+
 ## 確認されているバグ一覧
 - ロードしないと表示されない
 - 稀に、スコアが0になる
