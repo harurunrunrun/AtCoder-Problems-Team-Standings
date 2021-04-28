@@ -6,6 +6,8 @@ This script create a team standings on AtCoder Problems.(alpha ver. lang. is onl
 - Pin me
 
 ## 導入方法
+- (方法1 推奨) greasy forkに同様のスクリプトを投稿しているので、そこからダウンロードする。(リンク:)
+- (方法2 非推奨) alpha フォルダ内にあるスクリプトをTampermonkey(他は未確認)などに保存して使う
 
 ## 使い方 
 1. {[user_id]:[team名],[user_id]:[team名].....}というユーザとチーム名の対応が書かれたファイル(形式はjsonやtxtなど)を作成する。
